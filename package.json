@@ -1,0 +1,35 @@
+{
+  "name": "db-create-svelte",
+  "version": "1.0.0",
+  "description": "创建svelte应用程序",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "commander": "4.1.1",
+    "fs-extra": "^9.1.0",
+    "envinfo": "^7.7.3",
+    "path-key": "^3.1.1",
+    "cross-spawn": "^7.0.3",
+    "semver": "^7.3.4",
+    "validate-npm-package-name": "^3.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dbMongola/db-create-svelte.git"
+  },
+  "keywords": [
+    "svelte"
+  ],
+  "files": [
+    "index.js",
+    "createApp.js"
+  ],
+  "bin": {
+    "db-create-svelte": "./index.js"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dbMongola/db-create-svelte/issues"
+  }
+}
